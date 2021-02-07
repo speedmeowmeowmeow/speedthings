@@ -18,7 +18,7 @@ $('#Compose').keyup(function() {
 		ChatCount.style.color = "orange";
 		if ($(this).val().length >= chatmaxLength-10) {
 			ChatCount.style.color = "red";
-			if ($(this).val().length >= chatmaxLength-10) {
+			if ($(this).val().length >= chatmaxLength) {
 				beep();
 				}
 
